@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>http://aid83.org/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://aid83.org/mentions.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://aid83.org/index.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://aid83.org/contact.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://aid83.org/association.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://aid83.org/doc/Livret-accueil-aid83-2018.pdf</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://aid83.org/devis.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://aid83.org/doc/Projet-de-service-2017-2022-aid83.pdf</loc>
+    <priority>1.0</priority>
+  </url>
+</urlset>
+<!--<guid value="cc4b30ad-5fea-4f38-9953-b69577b7414e" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->

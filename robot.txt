@@ -1,0 +1,7 @@
+User-agent: *
+Sitemap: http://aid83.org/sitemap.xml
+Disallow: /font/
+Disallow: /css/
+Disallow: /img/
+Disallow: /php/
+Disallow: /js/

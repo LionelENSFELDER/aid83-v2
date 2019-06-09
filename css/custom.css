@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300i,400|Raleway:800');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,800');
+/*-------------------------------*\
+HTML
+\*-------------------------------*/
+html {
+    font-family: 'Lato', Helvetica;
+    /*font-family: 'Open Sans';*/
+}
+/*-------------------------------*\
+Menu
+\*-------------------------------*/
+.uk-navbar-nav > li > a {
+    color: #2F373A;
+}
+.main-banner {
+    height: 90vh;
+}
+
+/*-------------------------------*\
+BACKGROUND COLORS
+\*-------------------------------*/
+.no-background {
+    background-color: transparent;
+}
+.white-background {
+    background-color: #ffffff;
+}
+.transparent-background {
+    background-color: rgba(192, 192, 192, 0.2);
+}
+.green1-background {
+    background-color: #00b108;
+}
+.green2-background {
+    background-color: #00e70c;
+}
+.black-background {
+    background-color: #2F373A;
+}
+/*-------------------------------*\
+GRADIENTS
+\*-------------------------------*/
+.gradient1 {
+    background: linear-gradient(45deg ,#00ff0c 0%, #25f32f 33%, #07c911 66%, #00b108 100%);
+}
+/*-------------------------------*\
+FONT COLOR
+\*-------------------------------*/
+.transparent-font {
+    color: rgba(192, 192, 192, 0.2);
+}
+.white-font {
+    color: #ffffff;
+}
+.black-font {
+    color: rgb(55, 62, 65);
+}
+.green1-font {
+    color: #00b108;
+}
+.light-grey-font {
+    color: #c9c9c9;
+}
+/*-------------------------------*\
+DIVIDER
+\*-------------------------------*/
+
+/*-------------------------------*\
+TEXT
+\*-------------------------------*/
+.section-header {
+    font-family: 'Fredoka One', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.card-header {
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+.banner-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.feature-logo-text {
+    font-size: 0.6rem;
+}
+.spoted-numbers {
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 3em;
+}
+.big-number{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Bungee';
+}
+/*-------------------------------*\
+BORDER
+\*-------------------------------*/
+.gradient-border {
+    border: 5px solid transparent;
+    border-image: linear-gradient(45deg ,#00ff0c 0%, #d9ff00 33%, #07c911 66%, #00b108 100%);
+    border-image-slice: 1;
+    border-width: 3px;
+}
+.green1-border {
+    border-color: #00b108;
+    border-style: solid;
+    border-width: 2px;
+}
+.green2-border {
+    border-color: #4ad400;
+    border-style: solid;
+    border-width: 2px;
+}
+.transparent-border {
+    border-color: rgba(192, 192, 192, 0.2);
+    border-style: solid;
+    border-width: 2px;
+}
+.img-round-border {
+    border: 10px solid #c0c0c081;
+}
+/*-------------------------------*\
+BUTTONS (colors only)
+\*-------------------------------*/
+.uk-button:hover {
+}
+.green-button {
+    background-color: #00b108;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.green-button:hover {
+    background-color: #fff;
+    color: #00b108;
+    border: 1px solid #00b108;
+}
+.transparent-button {
+    background-color: transparent;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.transparent-button:hover {
+    background-color: transparent;
+    color: #00b108;
+}
+
+.upload-button {
+    background-color: transparent;
+    color: #00b108;
+    font-weight: bold;
+    border: 2px dotted #00b108;
+    border-radius: 10px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.upload-button:before {
+    font-family: 'icofont';
+    content: "\f100";
+    color: #adadad;
+    font-size: 2em;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+
+/*-------------------------------*\
+LINK
+\*-------------------------------*/
+#footer {
+    color: #ffffff;
+}
+.footer-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1em;
+}
+.footer-link:hover {
+    text-decoration: none;
+    color: #f7006b;
+    font-size: 1.1em;
+}
+/*-------------------------------*\
+COPYRIGHT
+\*-------------------------------*/
+.copyright-text {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1em;
+}
+/*-------------------------------*\
+RESPONSIVE PART
+\*-------------------------------*/
+
+/* Breakpoints s = 640px, m = 960px, l=1200px, xl = 1600px */
+
+/*-------------------------------*\
+TEST
+\*-------------------------------*/
+.separate-text {
+    display: inline-block;
+    border-right: 2px solid #00b1094f;
+    padding: 0px 10px 0px 10px;
+}
+.separate-text:last-of-type {
+    display: inline-block;
+    border-right: none;
+    padding: 0px 10px 0px 10px;
+}
+/*-------------------------------*\
+FORM
+\*-------------------------------*/
+.form-header {
+    font-family: 'Fredoka One', sans-serif;
+    text-transform: uppercase;
+    color: #2F373A;
+    letter-spacing: 1px;
+}
+.uk-input,
+.uk-select,
+.uk-textarea {
+  /* 1 */
+  max-width: 100%;
+  /* 2 */
+  width: 100%;
+  /* 3 */
+  border: 0 none;
+  /* 4 */
+  padding: 0 10px;
+  background: #c0c0c081;
+  color: black;
+  border: 1px solid transparent;
+  transition: 0.2s ease-in-out;
+  transition-property: color, background-color, border;
+}
+
+/*-------------------------------*\
+ACCORDION
+\*-------------------------------*/
+
+/*-------------------------------*\
+POSITIONS
+\*-------------------------------*/
