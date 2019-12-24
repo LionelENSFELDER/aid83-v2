@@ -1,0 +1,13 @@
+# REDIRECTION TO HTTPS
+# https://wiki.apache.org/httpd/RewriteHTTPToHTTPS
+
+
+RewriteEngine On
+
+RewriteCond %{HTTPS} !=on
+
+RewriteRule ^/?(.*) https://www.aid83.org/$1 [R,L]
+# RewriteRule ^/?(.*) https://aid83.org/$1 [R,L]
+
+
+ErrorDocument 404 http://www.aid83.org/404.html
