@@ -3,6 +3,14 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,800');
 /*-------------------------------*\
+CUSTOM UI KIT
+\*-------------------------------*/
+.uk-dropdown{
+    min-width: 400px;
+    /* 4 */
+    padding: 25px;
+}
+/*-------------------------------*\
 HTML
 \*-------------------------------*/
 html {
