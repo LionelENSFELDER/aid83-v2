@@ -37,6 +37,6 @@ jobs:
           # Force SSL encryption
           forceSsl: false # optional, default is false
           # Local directory
-          localDir: "build" # optional, default is .
+          localDir: "./" # optional, default is .
           # Remote directory
           remoteDir: "www" # optional, default is .
