@@ -1,422 +1,435 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <meta charset="utf-8">
-        <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
-        <meta name="description" content="Aide à domicile pour personnes agées, handicapées ou désirant une aide ponctuelle. Appelez le 04 89 29 11 80.">
-        <meta name="author" content="ENSFELDER Lionel">
-        <meta name="google-site-verification" content="BtLOl22CmPvsz5mR-amxBjI_W75AL7ZF9jhFGrShX4I" />
-        <title>AID83 | Accueil</title>
-        <!-- UIkit CSS -->
-        <link rel="stylesheet" href="css/uikit.css" />
-        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.39/css/uikit.min.css" /> -->
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="css/custom.css">
-        <link rel="stylesheet" href="font/icofont/icofont.css">
-        <!-- Google scripts-->
-        <script src='https://www.google.com/recaptcha/api.js'></script>
-        <!-- UIkit JS -->
-        <script src="js/uikit.js"></script>
-        <script src="js/uikit-icons.js"></script>
-        <!-- Fonts -->
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.38/js/uikit.min.js"></script> -->
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.38/js/uikit-icons.min.js"></script> -->
-        <!--favicons-->
-        <link rel="icon" href="img/ico/favicon.ico">
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/ico/apple-touch-icon-144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/ico/apple-touch-icon-114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="img/ico/apple-touch-icon-57-precomposed.png">
-    </head>
-    <body>
-        <!-- ////////////////////////////// Navbar ////////////////////////////// -->
-        <section class="white-background" uk-sticky>
-            <div class="uk-container">
-                <nav class="" uk-navbar>
-                    <div class="uk-navbar-left">
-                        <ul class="uk-navbar-nav uk-margin-remove">
-                            <li><img src="img/logo-aid83.png" alt="" title="" width="170px" height="100%"></li>
-                        </ul>
-                    </div>
-                    <div class="uk-navbar-right">
-                        <ul class="uk-navbar-nav uk-visible@m">
-                            <li><a href="#association" uk-scroll>L'association</a></li>
-                            <li><a href="#services" uk-scroll>Services</a></li>
-                            <li><a href="#tarifs" uk-scroll>Tarifs</a></li>
-                            <li><a href="#workers" uk-scroll>Intervenants</a></li>
-                            <li><a href="#office-team" uk-scroll>Encadrement</a></li>
-                            <li><a href="#contact" uk-scroll>Contact</a></li>
-                            <li><a href="#faq" uk-scroll>FAQ</a></li>
-                            <li><a href="devis.html">Devis</a></li>
-                            <li><a href="candidature.html">Candidature</a></li>
-                        </ul>
-                        <ul class="uk-navbar-nav uk-hidden@m">
-                            <li class="">
-                                <a href="#off-canva-menu" uk-toggle>
-                                    <span uk-icon="icon: menu; ratio: 2"></span>
-                                </a>
-                            </li>
-                            <!-- This is the off-canvas -->
-                            <div id="off-canva-menu" uk-offcanvas>
-                                <div class="uk-offcanvas-bar green2-background uk-light">
-                                    <button class="uk-offcanvas-close" type="button" uk-close></button>
-                                    <ul class="uk-list uk-list-divider">
-                                        <br>
-                                        <li><a href="#association" uk-scroll>L'association</a></li>
-                                        <li><a href="#services" uk-scroll>Services</a></li>
-                                        <li><a href="#tarifs" uk-scroll>Tarifs</a></li>
-                                        <li><a href="#workers" uk-scroll>Intervenants</a></li>
-                                        <li><a href="#office-team" uk-scroll>Encadrement</a></li>
-                                        <li><a href="#contact" uk-scroll>Contact</a></li>
-                                        <li><a href="#faq" uk-scroll>FAQ</a></li>
-                                        <li><a href="devis.html">Devis</a></li>
-                                        <li><a href="candidature.html">Candidature</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </ul>
-                    </div>
-                </nav>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta charset="utf-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+  <meta name="description"
+    content="Aide à domicile pour personnes agées, handicapées ou désirant une aide ponctuelle. Appelez le 04 89 29 11 80.">
+  <meta name="author" content="ENSFELDER Lionel">
+  <meta name="google-site-verification" content="BtLOl22CmPvsz5mR-amxBjI_W75AL7ZF9jhFGrShX4I" />
+  <title>AID83 | Accueil</title>
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="css/uikit.css" />
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.39/css/uikit.min.css" /> -->
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="font/icofont/icofont.css">
+  <!-- Google scripts-->
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+  <!-- UIkit JS -->
+  <script src="js/uikit.js"></script>
+  <script src="js/uikit-icons.js"></script>
+  <!-- Fonts -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.38/js/uikit.min.js"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.38/js/uikit-icons.min.js"></script> -->
+  <!--favicons-->
+  <link rel="icon" href="img/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="img/ico/apple-touch-icon-57-precomposed.png">
+</head>
+
+<body>
+  <!-- ////////////////////////////// Navbar ////////////////////////////// -->
+  <section class="white-background" uk-sticky>
+    <div class="uk-container">
+      <nav class="" uk-navbar>
+        <div class="uk-navbar-left">
+          <ul class="uk-navbar-nav uk-margin-remove">
+            <li><img src="img/logo-aid83.png" alt="" title="" width="170px" height="100%"></li>
+          </ul>
+        </div>
+        <div class="uk-navbar-right">
+          <ul class="uk-navbar-nav uk-visible@m">
+            <li><a href="#association" uk-scroll>L'association</a></li>
+            <li><a href="#services" uk-scroll>Services</a></li>
+            <li><a href="#tarifs" uk-scroll>Tarifs</a></li>
+            <li><a href="#workers" uk-scroll>Intervenants</a></li>
+            <li><a href="#office-team" uk-scroll>Encadrement</a></li>
+            <li><a href="#contact" uk-scroll>Contact</a></li>
+            <li><a href="#faq" uk-scroll>FAQ</a></li>
+            <li><a href="devis.html">Devis</a></li>
+            <li><a href="candidature.html">Candidature</a></li>
+          </ul>
+          <ul class="uk-navbar-nav uk-hidden@m">
+            <li class="">
+              <a href="#off-canva-menu" uk-toggle>
+                <span uk-icon="icon: menu; ratio: 2"></span>
+              </a>
+            </li>
+            <!-- This is the off-canvas -->
+            <div id="off-canva-menu" uk-offcanvas>
+              <div class="uk-offcanvas-bar green2-background uk-light">
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+                <ul class="uk-list uk-list-divider">
+                  <br>
+                  <li><a href="#association" uk-scroll>L'association</a></li>
+                  <li><a href="#services" uk-scroll>Services</a></li>
+                  <li><a href="#tarifs" uk-scroll>Tarifs</a></li>
+                  <li><a href="#workers" uk-scroll>Intervenants</a></li>
+                  <li><a href="#office-team" uk-scroll>Encadrement</a></li>
+                  <li><a href="#contact" uk-scroll>Contact</a></li>
+                  <li><a href="#faq" uk-scroll>FAQ</a></li>
+                  <li><a href="devis.html">Devis</a></li>
+                  <li><a href="candidature.html">Candidature</a></li>
+                </ul>
+              </div>
             </div>
-        </section>
-        <!-- ////////////////////////////// Banner ////////////////////////////// -->
-        <section class="uk-section-large uk-cover-container">
-                <img src="img/entry.jpg" uk-cover>
-            <div class="uk-container uk-card uk-padding-remove">
-                <div class="uk-grid-collapse uk-child-width-expand@m uk-text-left" uk-grid>
-                    <div class="uk-width-1-2@m">
-                        <div class="">
-                            <div class="uk-card uk-card-body uk-padding-remove uk-margin-large-top">
-                                <h1 class="section-header white-font">Pour servir votre vie au quotidien</h1>
-                                <a class="uk-button green-button uk-margin-small-top" href="doc/Livret-accueil-aid83.pdf" target="_blank">Livret d'accueil</a>
-                                <a class="uk-button transparent-button uk-margin-small-top" href="doc/Projet-de-service-aid83.pdf" target="_blank">Projet de services</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="uk-width-1-2@m uk-margin-auto-vertical">
-                        <div class="uk-grid-collapse uk-child-width-expand@s uk-text-center" uk-grid>
-                            <div class="uk-animation-toggle">
-                                <img class="uk-animation-shake" src="img/logo/logo-qualicert.png" width="120" height="120">
-                            </div>
-                            <div>
-                                <div class="uk-animation-toggle">
-                                    <img class="uk-animation-shake" src="img/logo/logo-fedesap.png" width="120" height="120">
-                                </div>
-                            </div>
-                            <div>
-                                <div class="uk-animation-toggle">
-                                    <img class="uk-animation-shake" src="img/logo/logo-sap.png" width="120" height="120">
-                                </div>
-                            </div>
-                            <div>
-                                <div class="uk-animation-toggle">
-                                    <img class="uk-animation-shake" src="img/logo/logo-si.png" width="120" height="120">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+  <!-- ////////////////////////////// Banner ////////////////////////////// -->
+  <section class="uk-section-large uk-cover-container">
+    <img src="img/entry.jpg" uk-cover>
+    <div class="uk-container uk-card uk-padding-remove">
+      <div class="uk-grid-collapse uk-child-width-expand@m uk-text-left" uk-grid>
+        <div class="uk-width-1-2@m">
+          <div class="">
+            <div class="uk-card uk-card-body uk-padding-remove uk-margin-large-top">
+              <h1 class="section-header white-font">Pour servir votre vie au quotidien</h1>
+              <a class="uk-button green-button uk-margin-small-top" href="doc/Livret-accueil-aid83.pdf"
+                target="_blank">Livret d'accueil</a>
+              <a class="uk-button transparent-button uk-margin-small-top" href="doc/Projet-de-service-aid83.pdf"
+                target="_blank">Projet de services</a>
             </div>
-        </section>
-        <!-- ////////////////////////////// L'ASSOCIATION ////////////////////////////// -->
-        <section id="association" class="uk-section">
-            <div class="uk-container">
-                <div class="uk-grid-large uk-child-width-expand@m uk-grid-match" uk-grid>
-                    <div>
-                        <div class="uk-card uk-text-left">
-                            <h1 class="section-header uk-margin-remove-bottom">L'association</h1>
-                            <strong class="uk-text-large light-grey-font">Qualité et proximité.</strong>
-                            <p>
-                                Ouverte depuis le 1er juin 2009, notre association à but non lucratif, est prestataire de services et est soumise à autorisation par le Conseil Départemental.
-                                Nous proposons des services à toute personne souhaitant ou ayant besoin d’une aide à domicile.<br>
-                                <span class="green1-font">Nous garantissons un service de qualité et de proximité en vous proposant un personnel d’intervention formé et expérimenté, sélectionné avec soin, pour répondre à l’ensemble de vos besoins.</span>
-                                Les interventions sont individualisées selon une approche globale et un principe d’ajustement continu de la prestation aux besoins et attentes de la personne suivant les indications de la norme de service. 
-                            </p>
-                            <a class="uk-button green-button uk-margin-small-top" href="#contact">Nous contacter</a>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card-default uk-cover-container uk-border-rounded">
-                            <img src="img/aid83-personnes-agees.jpg" alt="" uk-cover>
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div class="uk-width-1-2@m uk-margin-auto-vertical">
+          <div class="uk-grid-collapse uk-child-width-expand@s uk-text-center" uk-grid>
+            <div class="uk-animation-toggle">
+              <img class="uk-animation-shake" src="img/logo/logo-qualicert.png" width="120" height="120">
             </div>
-        </section>
-        <!-- ////////////////////////////// NUMBERS ////////////////////////////// -->
-        <section id="association" class="uk-section green1-background">
-            <div class="uk-grid-collapse uk-child-width-expand@s uk-text-center uk-grid-match white-font" uk-grid>
-                    <div>
-                        <div class="uk-padding-small">
-                            <span class="uk-display-block spoted-numbers">13</span>
-                            <span class="uk-display-block">Années d'existence</span>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-padding-small">
-                            <span class="uk-display-block spoted-numbers">20</span>
-                            <span class="uk-display-block">Intervenants quotidiens</span>
-                    </div>
-                    </div>
-                    <div>
-                        <div class="uk-padding-small">
-                            <span class="uk-display-block spoted-numbers">83</span>
-                            <span class="uk-display-block">Bénéficiaires</span>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-padding-small">
-                            <span class="uk-display-block spoted-numbers">5</span>
-                            <span class="uk-display-block">Véhicules*</span>
-                            <span class="uk-display-block uk-text-center" style="font-size:0.7em;">*Dont 2 pour personnes à mobilité réduite</span>
-                        </div>
-                    </div>
+            <div>
+              <div class="uk-animation-toggle">
+                <img class="uk-animation-shake" src="img/logo/logo-fedesap.png" width="120" height="120">
+              </div>
             </div>
-        </section>
-        <!-- ////////////////////////////// SERVICES  ////////////////////////////// -->
-        <section id="services" class="uk-section transparent-background">
-            <div class="uk-container">
-                <h1 class="section-header uk-text-center">Nos services</h1>
-                <div class="uk-grid-small uk-child-width-expand@m uk-grid-match" uk-grid>
-                    <div>
-                        <div class="uk-card uk-card-body">
-                                <span class="icofont-bucket1 icofont-4x light-grey-font"></span><br>
-                                <span class="card-header">Entretien du logement</span>
-                                <p>
-                                    Sols, mobilier, sanitaires, linge, vitres, électroménager.
-                                </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-body">
-                                <span class="icofont-food-basket icofont-4x light-grey-font"></span><br>
-                                <span class="card-header">Aide aux repas</span>
-                                <p>
-                                    Courses, accompagnement aux courses, préparation des repas et aide à la prise des repas.
-                                </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-body">
-                                <span class="icofont-hand-drag1 icofont-4x light-grey-font"></span><br>
-                                <span class="card-header">Gestes au corps</span>
-                                <p>
-                                    Aide au lever/coucher, aide à l’habillage, change, aide à la toilette, transferts.
-                                </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- second column -->
-                <div class="uk-grid-small uk-child-width-expand@m uk-grid-match" uk-grid>
-                  <div>
-                        <div class="uk-card uk-card-body">
-                                <span class="icofont-users-social icofont-4x light-grey-font"></span><br>
-                                <span class="card-header">Vie sociale</span>
-                                <p>
-                                    Accompagnement à l'extérieur, aide administrative et garde de jour.
-                                </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-body">
-                                <span class="icofont-tools-bag icofont-4x light-grey-font"></span><br>
-                                <span class="card-header">Petit bricolage</span>
-                                <p>
-                                   Prestation de bricolage élémentaire et occasionnel comme fixer une étagère, monter des petits meubles, remplacer un joint... 
-                                </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-body">
-                                <span class="icofont-tree-alt icofont-4x light-grey-font"></span><br>
-                                <span class="card-header">Petit jardinage</span>
-                                <p>
-                                   Travaux d'entretien courant des jardins et potagers. 
-                                </p>
-                        </div>
-                    </div>
-                </div>
+            <div>
+              <div class="uk-animation-toggle">
+                <img class="uk-animation-shake" src="img/logo/logo-sap.png" width="120" height="120">
+              </div>
             </div>
-        </section>
-        <!-- ////////////////////////////// TARIFS ////////////////////////////// -->
-        <section id="tarifs" class="uk-section white-font uk-cover-container">
-            <img src="img/pattern4.jpg" uk-cover>
-            <div class="uk-container">
-                <div class="uk-card uk-padding-remove">
-                    <h1 class="section-header uk-text-center white-font">Nos tarifs</h1>
-                </div>
-                <div class="uk-grid-collapse uk-child-width-expand@m uk-text-left" uk-grid uk-height-match="target: .uk-card">
-                    <div>
-                        <div class="uk-card uk-card-body">
-                            <div>
-                                <span class="icofont-world icofont-4x uk-margin-small-right"></span>
-                                <span class="card-header">Périmètre d'intervention</span>
-                            </div>
-                            <p>
-                                Nous avons l'agrément pour le département du Var.
-                                Nous intervenons principalement dans un rayon de 15 kms autour de Toulon.
-                            </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-body">
-                            <div>
-                                <span class="icofont-dashboard icofont-4x uk-margin-small-right"></span>
-                                <span class="card-header">Tarifs horaire</span>
-                            </div>
-                            <p>
-                                <ul>
-                                    <li>25,25 € du lundi au samedi.</li>
-                                    <li>30,45 € les dimanches et jours fériés.</li>
-                                    <li>30,45 € pour les prestations au-delà de 20h.</li>
-                                    <li>40 € de l'heure + 4 € de frais de déplacement pour le petit jardinage et le petit bricolage.</li>
-                                    <li>0,50 € de frais de déplacement par intervention du lundi au samedi.</li>
-                                    <li>1,00 € de frais de déplacement par intervention les dimanche et jours fériés.</li>
-                                    <li>0,52 € par kilomètres parcourus (accompagnement à l'extérieur).</li>
-                                </ul>
-                            </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-body">
-                            <div>
-                                <span class="icofont-credit-card icofont-4x uk-margin-small-right"></span>
-                                <span class="card-header">Moyens de paiement</span>
-                            </div>
-                            <p>
-                                <ul>
-                                    <li>Espèces*</li>
-                                    <li>Virement bancaire</li>
-                                    <li>Chèque</li>
-                                    <li>CESU</li>
-                                    <li>Prélèvements automatique</li>
-                                </ul>
-                                *N’ouvre pas droit à avantage fiscal – article D. 7233-3 du code du travail.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="uk-grid-collapse uk-child-width-expand@m uk-text-left" uk-grid uk-height-match="target: .uk-card">
-                    <div>
-                        <div class="uk-card uk-card-body">
-                            <div>
-                                <span class="icofont-folder-open icofont-4x uk-margin-small-right"></span>
-                                <span class="card-header">Accompagnement</span>
-                            </div>
-                            <p>
-                                Les dossiers d'aide sociale sont à disposition dans nos bureaux.
-                                Nous vous aidons à les renseigner et nous le transmettons.
-                            </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-body">
-                            <div>
-                                <span class="icofont-sale-discount icofont-4x uk-margin-small-right"></span>
-                                <span class="card-header">Crédit d'impôts de 50%</span>
-                            </div>
-                            <p>
-                                Sur les sommes engagées et dans une limite annuelle selon les conditions de l’article 199 sexdecies du Code Général des Impôts. 
-                                Une attestation fiscale vous sera remise.
-                            </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-body">
-                            <div>
-                                <span class="icofont-live-support icofont-4x uk-margin-small-right"></span>
-                                <span class="card-header">Permanence téléphonique</span>
-                            </div>
-                            <p>
-                                Nos équipes sont joignables à toute heure pour vous assurer une continuité de services, répondre aux besoins de dernière minutes ou aux urgences.<br>
-                                7jour /7 - 24h /24 au <span class="uk-text-bold">04 89 29 11 80</span>.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            <div>
+              <div class="uk-animation-toggle">
+                <img class="uk-animation-shake" src="img/logo/logo-si.png" width="120" height="120">
+              </div>
             </div>
-        </section>
-        <!-- ////////////////////////////// INTERVENANTS ////////////////////////////// -->
-        <section id="workers" class="uk-section transparent-background">
-            <div class="uk-container">
-                <h1 class="section-header uk-text-center">Les intervenants</h1>
-                <div class="uk-grid-small uk-child-width-expand@m uk-grid-match" uk-grid>
-                    <div>
-                        <div class="uk-card uk-card-body">
-                                <span class="icofont-home icofont-4x light-grey-font"></span><br>
-                                <span class="card-header">Agent(e)s à domicile</span>
-                                <p>
-                                    Avec ou sans diplôme avec une expérience dans le domaine d'au moins 1 an.
-                                    Ils interviennent pour des tâches d'entretien du logement.
-                                </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-body">
-                                <i class="icofont-fork-and-knife icofont-4x uk-margin-small-right light-grey-font"></i><br>
-                                <span class="card-header">Assistant(e)s de vie</span>
-                                <p>
-                                    Titulaires du BEP ASSP, du diplôme d'ADVF ou encore du BEP CSS.
-                                    Ils accomplissent des prestations d'entretien du logement, d'aide aux repas, de vie sociale.
-                                </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-body">
-                                <i class="icofont-bathtub icofont-4x uk-margin-small-right light-grey-font"></i><br>
-                                <span class="card-header">Auxiliaires de vie</span>
-                                <p>
-                                    Titulaires du diplôme d'état ou d'une VAE.
-                                    Ils réalisent toute tâche d'entretien du logement, d'aide aux repas, de vie sociale et de gestes au corps.
-                                </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-body gradient-border">
-                                <i class="icofont-megaphone-alt icofont-4x uk-margin-small-right light-grey-font"></i><br>
-                                <span class="card-header">AID83 RECRUTE !</span>
-                                <p>
-                                    Vous êtes dynamique et souhaitez travailler dans l'aide à domicile ?
-                                    <br>
-                                    <span class="uk-text-bold uk-text-success">Rejoignez notre équipe !</span>
-                                </p>
-                                <a class="uk-button green-button uk-margin-small-top" href="candidature.html">Candidature</a>
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ////////////////////////////// L'ASSOCIATION ////////////////////////////// -->
+  <section id="association" class="uk-section">
+    <div class="uk-container">
+      <div class="uk-grid-large uk-child-width-expand@m uk-grid-match" uk-grid>
+        <div>
+          <div class="uk-card uk-text-left">
+            <h1 class="section-header uk-margin-remove-bottom">L'association</h1>
+            <strong class="uk-text-large light-grey-font">Qualité et proximité.</strong>
+            <p>
+              Ouverte depuis le 1er juin 2009, notre association à but non lucratif, est prestataire de services et est
+              soumise à autorisation par le Conseil Départemental.
+              Nous proposons des services à toute personne souhaitant ou ayant besoin d’une aide à domicile.<br>
+              <span class="green1-font">Nous garantissons un service de qualité et de proximité en vous proposant un
+                personnel d’intervention formé et expérimenté, sélectionné avec soin, pour répondre à l’ensemble de vos
+                besoins.</span>
+              Les interventions sont individualisées selon une approche globale et un principe d’ajustement continu de
+              la prestation aux besoins et attentes de la personne suivant les indications de la norme de service.
+            </p>
+            <a class="uk-button green-button uk-margin-small-top" href="#contact">Nous contacter</a>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card-default uk-cover-container uk-border-rounded">
+            <img src="img/aid83-personnes-agees.jpg" alt="" uk-cover>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ////////////////////////////// NUMBERS ////////////////////////////// -->
+  <section id="association" class="uk-section green1-background">
+    <div class="uk-grid-collapse uk-child-width-expand@s uk-text-center uk-grid-match white-font" uk-grid>
+      <div>
+        <div class="uk-padding-small">
+          <span class="uk-display-block spoted-numbers">13</span>
+          <span class="uk-display-block">Années d'existence</span>
+        </div>
+      </div>
+      <div>
+        <div class="uk-padding-small">
+          <span class="uk-display-block spoted-numbers">20</span>
+          <span class="uk-display-block">Intervenants quotidiens</span>
+        </div>
+      </div>
+      <div>
+        <div class="uk-padding-small">
+          <span class="uk-display-block spoted-numbers">83</span>
+          <span class="uk-display-block">Bénéficiaires</span>
+        </div>
+      </div>
+      <div>
+        <div class="uk-padding-small">
+          <span class="uk-display-block spoted-numbers">5</span>
+          <span class="uk-display-block">Véhicules*</span>
+          <span class="uk-display-block uk-text-center" style="font-size:0.7em;">*Dont 2 pour personnes à mobilité
+            réduite</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ////////////////////////////// SERVICES  ////////////////////////////// -->
+  <section id="services" class="uk-section transparent-background">
+    <div class="uk-container">
+      <h1 class="section-header uk-text-center">Nos services</h1>
+      <div class="uk-grid-small uk-child-width-expand@m uk-grid-match" uk-grid>
+        <div>
+          <div class="uk-card uk-card-body">
+            <span class="icofont-bucket1 icofont-4x light-grey-font"></span><br>
+            <span class="card-header">Entretien du logement</span>
+            <p>
+              Sols, mobilier, sanitaires, linge, vitres, électroménager.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-body">
+            <span class="icofont-food-basket icofont-4x light-grey-font"></span><br>
+            <span class="card-header">Aide aux repas</span>
+            <p>
+              Courses, accompagnement aux courses, préparation des repas et aide à la prise des repas.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-body">
+            <span class="icofont-hand-drag1 icofont-4x light-grey-font"></span><br>
+            <span class="card-header">Gestes au corps</span>
+            <p>
+              Aide au lever/coucher, aide à l’habillage, change, aide à la toilette, transferts.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- second column -->
+      <div class="uk-grid-small uk-child-width-expand@m uk-grid-match" uk-grid>
+        <div>
+          <div class="uk-card uk-card-body">
+            <span class="icofont-users-social icofont-4x light-grey-font"></span><br>
+            <span class="card-header">Vie sociale</span>
+            <p>
+              Accompagnement à l'extérieur, aide administrative et garde de jour.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-body">
+            <span class="icofont-tools-bag icofont-4x light-grey-font"></span><br>
+            <span class="card-header">Petit bricolage</span>
+            <p>
+              Prestation de bricolage élémentaire et occasionnel comme fixer une étagère, monter des petits meubles,
+              remplacer un joint...
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-body">
+            <span class="icofont-tree-alt icofont-4x light-grey-font"></span><br>
+            <span class="card-header">Petit jardinage</span>
+            <p>
+              Travaux d'entretien courant des jardins et potagers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ////////////////////////////// TARIFS ////////////////////////////// -->
+  <section id="tarifs" class="uk-section white-font uk-cover-container">
+    <img src="img/pattern4.jpg" uk-cover>
+    <div class="uk-container">
+      <div class="uk-card uk-padding-remove">
+        <h1 class="section-header uk-text-center white-font">Nos tarifs</h1>
+      </div>
+      <div class="uk-grid-collapse uk-child-width-expand@m uk-text-left" uk-grid uk-height-match="target: .uk-card">
+        <div>
+          <div class="uk-card uk-card-body">
+            <div>
+              <span class="icofont-world icofont-4x uk-margin-small-right"></span>
+              <span class="card-header">Périmètre d'intervention</span>
             </div>
-        </section>
-        <!-- ////////////////////////////// MANAGEMENT ////////////////////////////// -->
-        <section id="office-team" class="uk-section">
-            <div class="uk-container">
-                <h1 class="section-header uk-text-center">L'équipe d'encadrement</h1>
-                <div class="uk-grid-small uk-child-width-expand@m uk-text-center uk-grid-match" uk-grid>
-                    <div>
-                        <div class="uk-card uk-card-body uk-text-center">
-                            <img class="uk-border-rounded" src="img/default-profile.png" alt=""><br>
-                            <span class="card-header">Céline Rozzonelli</span><br>
-                            <span class="">Directrice Comptable</span><br>
-                            <a class="uk-margin-small-top" href="mailto:direction@aid83.org">direction@aid83.org</a>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-body uk-text-center">
-                            <img class="uk-border-rounded" src="img/default-profile.png" alt="Border rounded"><br>
-                            <span class="card-header">Mélina Ouakki</span><br>
-                            <span class="">Responsable de secteur</span><br>
-                            <a class="uk-margin-small-top" href="mailto:rh@aid83.org">rh@aid83.org</a>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-body uk-text-center">
-                            <img class="uk-border-rounded" src="img/default-profile.png" alt="Border rounded"><br>
-                            <span class="card-header">Laura BOULOUS</span><br>
-                            <span class="">Secrétaire</span><br>
-                            <a class="uk-margin-small-top" href="mailto:rh@aid83.org">contact@aid83.org</a>
-                        </div>
-                    </div>
-                    <!-- 
+            <p>
+              Nous avons l'agrément pour le département du Var.
+              Nous intervenons principalement dans un rayon de 15 kms autour de Toulon.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-body">
+            <div>
+              <span class="icofont-dashboard icofont-4x uk-margin-small-right"></span>
+              <span class="card-header">Tarifs horaire</span>
+            </div>
+            <p>
+            <ul>
+              <li>27,10 € du lundi au samedi.</li>
+              <li>32.70 € les dimanches et jours fériés.</li>
+              <li>32.70 € pour les prestations au-delà de 20h.</li>
+              <li>45 € de l'heure + 5 € de frais de déplacement pour le petit jardinage et le petit bricolage.</li>
+              <li>0.75 € de frais de déplacement par intervention du lundi au samedi.</li>
+              <li>1.50 € de frais de déplacement par intervention les dimanche et jours fériés.</li>
+              <li>0.58 € par kilomètres parcourus (accompagnement à l'extérieur).</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-body">
+            <div>
+              <span class="icofont-credit-card icofont-4x uk-margin-small-right"></span>
+              <span class="card-header">Moyens de paiement</span>
+            </div>
+            <p>
+            <ul>
+              <li>Espèces*</li>
+              <li>Virement bancaire</li>
+              <li>Chèque</li>
+              <li>CESU</li>
+              <li>Prélèvements automatique</li>
+            </ul>
+            *N’ouvre pas droit à avantage fiscal – article D. 7233-3 du code du travail.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="uk-grid-collapse uk-child-width-expand@m uk-text-left" uk-grid uk-height-match="target: .uk-card">
+        <div>
+          <div class="uk-card uk-card-body">
+            <div>
+              <span class="icofont-folder-open icofont-4x uk-margin-small-right"></span>
+              <span class="card-header">Accompagnement</span>
+            </div>
+            <p>
+              Les dossiers d'aide sociale sont à disposition dans nos bureaux.
+              Nous vous aidons à les renseigner et nous le transmettons.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-body">
+            <div>
+              <span class="icofont-sale-discount icofont-4x uk-margin-small-right"></span>
+              <span class="card-header">Crédit d'impôts de 50%</span>
+            </div>
+            <p>
+              Sur les sommes engagées et dans une limite annuelle selon les conditions de l’article 199 sexdecies du
+              Code Général des Impôts.
+              Une attestation fiscale vous sera remise.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-body">
+            <div>
+              <span class="icofont-live-support icofont-4x uk-margin-small-right"></span>
+              <span class="card-header">Permanence téléphonique</span>
+            </div>
+            <p>
+              Nos équipes sont joignables à toute heure pour vous assurer une continuité de services, répondre aux
+              besoins de dernière minutes ou aux urgences.<br>
+              7jour /7 - 24h /24 au <span class="uk-text-bold">04 89 29 11 80</span>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ////////////////////////////// INTERVENANTS ////////////////////////////// -->
+  <section id="workers" class="uk-section transparent-background">
+    <div class="uk-container">
+      <h1 class="section-header uk-text-center">Les intervenants</h1>
+      <div class="uk-grid-small uk-child-width-expand@m uk-grid-match" uk-grid>
+        <div>
+          <div class="uk-card uk-card-body">
+            <span class="icofont-home icofont-4x light-grey-font"></span><br>
+            <span class="card-header">Agent(e)s à domicile</span>
+            <p>
+              Avec ou sans diplôme avec une expérience dans le domaine d'au moins 1 an.
+              Ils interviennent pour des tâches d'entretien du logement.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-body">
+            <i class="icofont-fork-and-knife icofont-4x uk-margin-small-right light-grey-font"></i><br>
+            <span class="card-header">Assistant(e)s de vie</span>
+            <p>
+              Titulaires du BEP ASSP, du diplôme d'ADVF ou encore du BEP CSS.
+              Ils accomplissent des prestations d'entretien du logement, d'aide aux repas, de vie sociale.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-body">
+            <i class="icofont-bathtub icofont-4x uk-margin-small-right light-grey-font"></i><br>
+            <span class="card-header">Auxiliaires de vie</span>
+            <p>
+              Titulaires du diplôme d'état ou d'une VAE.
+              Ils réalisent toute tâche d'entretien du logement, d'aide aux repas, de vie sociale et de gestes au corps.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-body gradient-border">
+            <i class="icofont-megaphone-alt icofont-4x uk-margin-small-right light-grey-font"></i><br>
+            <span class="card-header">AID83 RECRUTE !</span>
+            <p>
+              Vous êtes dynamique et souhaitez travailler dans l'aide à domicile ?
+              <br>
+              <span class="uk-text-bold uk-text-success">Rejoignez notre équipe !</span>
+            </p>
+            <a class="uk-button green-button uk-margin-small-top" href="candidature.html">Candidature</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ////////////////////////////// MANAGEMENT ////////////////////////////// -->
+  <section id="office-team" class="uk-section">
+    <div class="uk-container">
+      <h1 class="section-header uk-text-center">L'équipe d'encadrement</h1>
+      <div class="uk-grid-small uk-child-width-expand@m uk-text-center uk-grid-match" uk-grid>
+        <div>
+          <div class="uk-card uk-card-body uk-text-center">
+            <img class="uk-border-rounded" src="img/default-profile.png" alt=""><br>
+            <span class="card-header">Céline Rozzonelli</span><br>
+            <span class="">Directrice Comptable</span><br>
+            <a class="uk-margin-small-top" href="mailto:direction@aid83.org">direction@aid83.org</a>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-body uk-text-center">
+            <img class="uk-border-rounded" src="img/default-profile.png" alt="Border rounded"><br>
+            <span class="card-header">Mélina Ouakki</span><br>
+            <span class="">Responsable de secteur</span><br>
+            <a class="uk-margin-small-top" href="mailto:rh@aid83.org">rh@aid83.org</a>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-body uk-text-center">
+            <img class="uk-border-rounded" src="img/default-profile.png" alt="Border rounded"><br>
+            <span class="card-header">Laura BOULOUS</span><br>
+            <span class="">Secrétaire</span><br>
+            <a class="uk-margin-small-top" href="mailto:rh@aid83.org">contact@aid83.org</a>
+          </div>
+        </div>
+        <!-- 
                     <div>
                         <div class="uk-card uk-card-body uk-text-center">
                             <img class="uk-border-rounded" src="img/default-profile.png" alt="Border rounded"><br>
@@ -426,417 +439,450 @@
                         </div>
                     </div>
                     -->
-                </div>
+      </div>
+    </div>
+  </section>
+  <!-- ////////////////////////////// NOS ATOUTS ////////////////////////////// -->
+  <section id="workers" class="uk-section transparent-background">
+    <div class="uk-container">
+      <h1 class="section-header uk-text-center">Nos atouts</h1>
+      <div class="uk-grid-small uk-child-width-expand@m uk-grid-match" uk-grid>
+        <div>
+          <div class="uk-card uk-card-body">
+            <span class="big-number">1.</span><br>
+            <span class="card-header">Proximité</span>
+            <p>
+              La taille de notre stucture garantit une proximité envers nos intervenants et bénéficiaires.<br>
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-body">
+            <span class="big-number">2.</span><br>
+            <span class="card-header">Réactivité</span>
+            <p>
+              Pour une première demande, nous prenons en charge dans les 48h.
+              Pour les bénéficiaires déjà présents dans notre structure, nous donnons une réponse à leur demande dans la
+              journée.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-body">
+            <span class="big-number">3.</span><br>
+            <span class="card-header">Formation</span>
+            <p>
+              Nos intervenants suivent des formations internes et externes ayant pour objectif
+              d'apporter aux bénéficiaires un service de qualité, de développer leurs compétences et d'assurer leur
+              employabilité.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="uk-margin-medium-top uk-text-center card-header">
+        <p>
+          Notre coordinatrice se déplace à votre domicile pour évaluer vos besoins et vous établi un devis gratuit.
+        </p>
+        <a class="uk-button uk-button-big green-button uk-margin-small-top" href="devis.html">Devis en ligne</a>
+      </div>
+    </div>
+  </section>
+  <!-- ////////////////////////////// QUICK CONTACT FORM ////////////////////////////// -->
+  <section id="contact" class="uk-section">
+    <div class="uk-container">
+      <h1 class="section-header uk-text-center">Contactez-nous</h1>
+      <div class="uk-grid-medium uk-child-width-expand@m uk-grid-match" uk-grid>
+        <div class="uk-width-1-3@m">
+          <div class="uk-card-default green1-background">
+            <div class="uk-card uk-card-body uk-text-center">
+              <p class="uk-text-left white-font">
+                <span class="uk-text-bold">Agrément</span><br>
+                Agrément qualité SAP511115081<br>
+                <br>
+                <span class="uk-text-bold">Adresse</span><br>
+                Le Firmament A, <br>
+                334 Bd. Général Brosset, 83200 Toulon<br>
+                <br>
+                <span class="uk-text-bold">Contact</span><br>
+                Tel : 04 89 29 11 80<br>
+                Fax : 04 89 29 11 81<br>
+                Mail : contact@aid83.org<br>
+                <br>
+                <span class="uk-text-bold">Ouverture</span><br>
+                Ouvert du lundi au vendredi<br>
+                08h00 - 12h00 et 14h00 - 17h00<br>
+                <br>
+                <span class="uk-text-bold">Permanence téléphonique</span><br>
+                7jour /7 - 24h /24<br>
+                04 89 29 11 80
+              </p>
             </div>
-        </section>
-        <!-- ////////////////////////////// NOS ATOUTS ////////////////////////////// -->
-        <section id="workers" class="uk-section transparent-background">
-            <div class="uk-container">
-                <h1 class="section-header uk-text-center">Nos atouts</h1>
-                <div class="uk-grid-small uk-child-width-expand@m uk-grid-match" uk-grid>
-                    <div>
-                        <div class="uk-card uk-card-body">
-                            <span class="big-number">1.</span><br>
-                            <span class="card-header">Proximité</span>
-                             <p>
-                                La taille de notre stucture garantit une proximité envers nos intervenants et bénéficiaires.<br>
-                            </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-body">
-                            <span class="big-number">2.</span><br>
-                            <span class="card-header">Réactivité</span>
-                            <p>
-                                Pour une première demande, nous prenons en charge dans les 48h.
-                                Pour les bénéficiaires déjà présents dans notre structure, nous donnons une réponse à leur demande dans la journée.
-                            </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-body">
-                            <span class="big-number">3.</span><br>
-                            <span class="card-header">Formation</span>
-                            <p>
-                                Nos intervenants suivent des formations internes et externes ayant pour objectif 
-                                d'apporter aux bénéficiaires un service de qualité, de développer leurs compétences et d'assurer leur employabilité. 
-                            </p>
-                        </div>
-                    </div>
+          </div>
+        </div>
+        <div class="uk-width-1-3@m">
+          <div class="">
+            <div class="uk-card">
+              <form name="quick-form" method="post" action="php/contact-dev.php" enctype="multipart/form-data"
+                charset="utf-8" class="uk-grid-small" uk-grid>
+                <div class="uk-width-1-1@m">
+                  <label class="uk-form-label" for="sujet">Je souhaite être rappeler pour:</label>
+                  <select class="uk-select uk-border-rounded" name="sujet" type="select"
+                    placeholder="Je souhaite être rappeler pour:">
+                    <option>Demander des renseignements</option>
+                    <option>Demander un rendez-vous</option>
+                    <option>Faire appel à vos services</option>
+                    <option>Demander un partenariat</option>
+                  </select>
                 </div>
-                <div class="uk-margin-medium-top uk-text-center card-header">
-                    <p>
-                        Notre coordinatrice se déplace à votre domicile pour évaluer vos besoins et vous établi un devis gratuit.
-                    </p>
-                    <a class="uk-button uk-button-big green-button uk-margin-small-top" href="devis.html">Devis en ligne</a>
+                <div class="uk-width-1-1@m">
+                  <label class="uk-form-label" for="heure">Je souhaite être rappeler (du lundi au vendredi)
+                    entre:</label>
+                  <select class="uk-select uk-border-rounded" name="heure" type="select"
+                    placeholder="Je suis disponible entre:">
+                    <option>8-12h</option>
+                    <option>14-17h</option>
+                  </select>
                 </div>
-            </div>
-        </section>
-        <!-- ////////////////////////////// QUICK CONTACT FORM ////////////////////////////// -->
-        <section id="contact" class="uk-section">
-            <div class="uk-container">
-                <h1 class="section-header uk-text-center">Contactez-nous</h1>
-                <div class="uk-grid-medium uk-child-width-expand@m uk-grid-match" uk-grid>
-                    <div class="uk-width-1-3@m">
-                        <div class="uk-card-default green1-background">
-                            <div class="uk-card uk-card-body uk-text-center">
-                                <p class="uk-text-left white-font">
-                                    <span class="uk-text-bold">Agrément</span><br>
-                                    Agrément qualité SAP511115081<br>
-                                    <br>
-                                    <span class="uk-text-bold">Adresse</span><br>
-                                    Le Firmament A, <br>
-                                    334 Bd. Général Brosset, 83200 Toulon<br>
-                                    <br>
-                                    <span class="uk-text-bold">Contact</span><br>
-                                    Tel : 04 89 29 11 80<br>
-                                    Fax : 04 89 29 11 81<br>
-                                    Mail : contact@aid83.org<br>
-                                    <br>
-                                    <span class="uk-text-bold">Ouverture</span><br>
-                                    Ouvert du lundi au vendredi<br>
-                                    08h00 - 12h00 et 14h00 - 17h00<br>
-                                    <br>
-                                    <span class="uk-text-bold">Permanence téléphonique</span><br>
-                                    7jour /7 - 24h /24<br>
-                                    04 89 29 11 80
-                                </p>
-                            </div>
-                        </div>
+                <div class="uk-width-1-1@m">
+                  <label class="uk-form-label" for="nom">Nom</label>
+                  <input class="uk-input uk-border-rounded" required name="nom" type="text" placeholder="Nom"
+                    pattern="[a-zA-Z]{2,99}" title="Nom">
+                </div>
+                <div class="uk-width-1-1@m">
+                  <label class="uk-form-label" for="prenom">Prénom</label>
+                  <input class="uk-input uk-border-rounded" required name="prenom" type="text" placeholder="Prénom"
+                    pattern="[a-zA-Z]{2,99}" title="Prénom">
+                </div>
+                <div class="uk-width-1-1@m">
+                  <label class="uk-form-label" for="tel">Téléphone</label>
+                  <input class="uk-input uk-border-rounded" required name="tel" type="tel"
+                    placeholder="Numéro de téléphone (sans espaces)" pattern="[0-9]{10}"
+                    title="Numéro de téléphone (sans espaces). Ex: 0011223344">
+                </div>
+                <div class="uk-width-1-1@m">
+                  <label class="uk-form-label" for="email">Adresse mail</label>
+                  <input class="uk-input uk-border-rounded" required name="email" type="email" placeholder="Email"
+                    pattern="[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([_\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})"
+                    title="Email">
+                </div>
+                <div class="uk-width-1-1@m">
+                  <div class="uk-inline">
+                    <input class="uk-checkbox" type="checkbox" required>
+                    <span class="uk-button-link uk-text-muted" type="button">J'accepte les conditions
+                      d'utilisations.</span>
+                    <div uk-dropdown="mode: click; pos: top; animation: uk-animation-slide-top-small">
+                      J'accepte que mes informations soit stockées uniquement sur le client mail de la personne
+                      en charge de répondre aux formulaire de contact et ce uniquement pendant la durée de la prise de
+                      contact.<br><br>
+                      AUCUNE information personnelle de l’utilisateur du site www.aid83.org n’est publiée à
+                      l’insu de l’utilisateur, échangée, transférée, cédée ou vendue sur un support quelconque à
+                      des tiers. L'adresse mail transmise via ce formulaire n'est utilisée pour aucune newsletter.
+                      <br><br>
+                      Pour plus d'informations sur la procédure à respecter pour exercer votre droit de regard sur les
+                      données enregistreés,
+                      rendez-vous dans <a href="mentions.html">Mentions légales.</a>
                     </div>
-                    <div class="uk-width-1-3@m">
-                        <div class="">
-                            <div class="uk-card">
-                                <form name="quick-form" method="post" action="php/contact-dev.php" enctype="multipart/form-data" charset="utf-8" class="uk-grid-small" uk-grid>
-                                    <div class="uk-width-1-1@m">
-                                        <label class="uk-form-label" for="sujet">Je souhaite être rappeler pour:</label>
-                                        <select class="uk-select uk-border-rounded" name="sujet" type="select" placeholder="Je souhaite être rappeler pour:">
-                                            <option>Demander des renseignements</option>
-                                            <option>Demander un rendez-vous</option>
-                                            <option>Faire appel à vos services</option>
-                                            <option>Demander un partenariat</option>
-                                        </select>
-                                    </div>
-                                    <div class="uk-width-1-1@m">
-                                        <label class="uk-form-label" for="heure">Je souhaite être rappeler (du lundi au vendredi) entre:</label>
-                                        <select class="uk-select uk-border-rounded" name="heure" type="select" placeholder="Je suis disponible entre:">
-                                            <option>8-12h</option>
-                                            <option>14-17h</option>
-                                        </select>
-                                    </div>
-                                    <div class="uk-width-1-1@m">
-                                        <label class="uk-form-label" for="nom">Nom</label>
-                                        <input class="uk-input uk-border-rounded" required name="nom" type="text" placeholder="Nom" pattern="[a-zA-Z]{2,99}" title="Nom">
-                                    </div>
-                                    <div class="uk-width-1-1@m">
-                                        <label class="uk-form-label" for="prenom">Prénom</label>
-                                        <input class="uk-input uk-border-rounded" required name="prenom" type="text" placeholder="Prénom" pattern="[a-zA-Z]{2,99}" title="Prénom">
-                                    </div>
-                                    <div class="uk-width-1-1@m">
-                                        <label class="uk-form-label" for="tel">Téléphone</label>
-                                        <input class="uk-input uk-border-rounded" required name="tel" type="tel" placeholder="Numéro de téléphone (sans espaces)" pattern="[0-9]{10}" title="Numéro de téléphone (sans espaces). Ex: 0011223344">
-                                    </div>
-                                    <div class="uk-width-1-1@m">
-                                        <label class="uk-form-label" for="email">Adresse mail</label>
-                                        <input class="uk-input uk-border-rounded" required name="email" type="email" placeholder="Email" pattern="[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([_\.\-]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})" title="Email">
-                                    </div>
-                                    <div class="uk-width-1-1@m">
-                                        <div class="uk-inline">
-                                            <input class="uk-checkbox" type="checkbox" required>
-                                            <span class="uk-button-link uk-text-muted" type="button">J'accepte les conditions d'utilisations.</span>
-                                            <div uk-dropdown="mode: click; pos: top; animation: uk-animation-slide-top-small">
-                                                J'accepte que mes informations soit stockées uniquement sur le client mail de la personne 
-                                                en charge de répondre aux formulaire de contact et ce uniquement pendant la durée de la prise de contact.<br><br>
-                                                AUCUNE information personnelle de l’utilisateur du site www.aid83.org n’est publiée à
-                                                l’insu de l’utilisateur, échangée, transférée, cédée ou vendue sur un support quelconque à
-                                                des tiers. L'adresse mail transmise via ce formulaire n'est utilisée pour aucune newsletter.
-                                                <br><br>
-                                                Pour plus d'informations sur la procédure à respecter pour exercer votre droit de regard sur les données enregistreés, 
-                                                rendez-vous dans <a href="mentions.html">Mentions légales.</a>
-                                            </div>
-                                        </div>
-                                    </div>
+                  </div>
+                </div>
 
 
-                                    <div class="uk-width-1-1@m">
-                                        <div class="g-recaptcha" data-sitekey="6LdAmEEUAAAAAG5vEKbaNlTR_lUJcSwNx8-L48gf"></div>
-                                    </div>
-                                    <div class="uk-width-1-1@m uk-text-left">
-                                        <button class="uk-button green-button">Rappelez-moi !</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="uk-width-1-3@m">
-                        <iframe 
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2911.8406929287253!2d5.901016814774333!3d43.128872694195714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c91b320b5ffbff%3A0xb64253b8ab70a493!2sAID+83!5e0!3m2!1sfr!2sfr!4v1544607734494" 
-                            width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen>
-                        </iframe>
-                    </div>
+                <div class="uk-width-1-1@m">
+                  <div class="g-recaptcha" data-sitekey="6LdAmEEUAAAAAG5vEKbaNlTR_lUJcSwNx8-L48gf"></div>
                 </div>
-            </div>
-        </section>
-        <!-- //////////////////////////////  FAQ  ////////////////////////////// -->
-        <section id="faq" class="uk-section transparent-background">
-            <div class="uk-container">
-                <h1 class="section-header uk-text-center">F.A.Q</h1>
-                <div class="uk-grid-small uk-child-width-expand@m uk-text-left uk-grid-match" uk-grid>
-                    <div class="uk-width-2-3@m">
-                        <div class="">
-                            <ul class="uk-margin-remove-bottom" uk-accordion>
-                                <li class="uk-open">
-                                    <a class="uk-accordion-title" href="#">Je veux faire appel à vos services, comment cela se passe-t-il ?</a>
-                                    <div class="uk-accordion-content">
-                                        <p>
-                                            Nous convenons d'un rendez-vous,non facturé, avec notre coordinatrice à votre domicile.<br>
-                                            Elle évalue vos besoins et défini avec vous les jours et horaires d'interventions que vous souhaitez y compris la date de début des interventions.    
-                                        </p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a class="uk-accordion-title" href="#">Où puis-je me procurer les dossiers de demande d'aide sociale?</a>
-                                    <div class="uk-accordion-content">
-                                        <p>
-                                            Nous mettons à votre disposition, dans nos bureaux, différents dossiers d'aide sociale.<br>
-                                            Nous pouvons, si vous le souhaitez, vous aider à le renseigner et le transmettre pour vous.
-                                        </p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a class="uk-accordion-title" href="#">En tant que bénéficiaire, que se passe-t-il lorsque je m'absente?</a>
-                                    <div class="uk-accordion-content">
-                                        <p>
-                                            Les prestations sont suspendues. Si vous êtes bénéficiaire d'une aide du Conseil Départemental (APA ou PCH), nous les informons de votre date de départ et de retour.
-                                        </p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a class="uk-accordion-title" href="#">Je n'ai pas de véhicule, je souhaite utiliser l'un des votre, que dois-je faire?</a>
-                                    <div class="uk-accordion-content">
-                                        <p>
-                                            Vous devez nous contacter au minimum 48h à l'avance afin de réserver le véhicule qui vous convient : véhicule aménagé ou non.
-                                        </p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a class="uk-accordion-title" href="#">Comment recrutez-vous vos intervenants?</a>
-                                    <div class="uk-accordion-content">
-                                        <p>
-                                            Après avoir rempli un questionnaire de candidature, les intervenants ont un entretien avec la coordinatrice qui évalue notamment sa personnalité pour qu'elle soit adaptée à celle des bénéficiaires. Lors de la constitution de leur dossier administratif, leur casier judiciaire est demandé.
-                                        </p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a class="uk-accordion-title" href="#">En cas d'absence de mon intervenant, comment sont assurées mes prestations?</a>
-                                    <div class="uk-accordion-content">
-                                        <p>
-                                            Les prestations sont maintenues aux jours et horaires d'interventions qui ont été définis dans le contrat. Elles sont donc assurées mais peuvent-être décalées.
-                                        </p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="uk-width-1-3@m">
-                        <img src="img/people.png" >
-                    </div>
+                <div class="uk-width-1-1@m uk-text-left">
+                  <button class="uk-button green-button">Rappelez-moi !</button>
                 </div>
+              </form>
             </div>
-        </section>
-        <!-- TESTIMONIALS
-        <section id="testimonial" class="uk-section">
-            <div class="uk-container">
-                    <div class="">
-                            <div class="uk-position-relative uk-visible-toggle uk-text-center" uk-slider="center: true; autoplay: true; autoplay-interval: 3000">
-
-                                <ul class="uk-slider-items">
-                                    <li class="uk-width-1-1 uk-padding-large">
-                                        <div class="uk-card uk-card-body uk-width-1-1">
-                                            <div class="">
-                                                <img class="uk-border-rounded" src="img/avatar.jpg" width="130" height="130" alt="Border rounded">
-                                            </div>
-                                            <span class="">Default</span>
-                                            <p>Lorem ipsum sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                        </div>
-                                    </li>
-                                    <li class="uk-width-1-1 uk-padding-large">
-                                        <div class="uk-card uk-card-body uk-width-1-1">
-                                            <div class="">
-                                                <img class="uk-border-rounded" src="img/avatar.jpg" width="130" height="130" alt="Border rounded">
-                                            </div>
-                                            <span class="uk-card-title">Default</span>
-                                            <p>Lorem ipsum sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                        </div>
-                                    </li>
-                                    <li class="uk-width-1-1 uk-padding-large">
-                                        <div class="uk-card uk-card-body uk-width-1-1">
-                                            <div class="">
-                                                <img class="uk-border-rounded" src="img/avatar.jpg" width="130" height="130" alt="Border rounded">
-                                            </div>
-                                            <span class="uk-card-title">Default</span>
-                                            <p>Lorem ipsum sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ipsum sit amet, consectetur adipiscing elit</p>
-                                        </div>
-                                    </li>
-                                    <li class="uk-width-1-1 uk-padding-large">
-                                        <div class="uk-card uk-card-body uk-width-1-1">
-                                            <div class="">
-                                                <img class="uk-border-rounded" src="img/avatar.jpg" width="130" height="130" alt="Border rounded">
-                                            </div>
-                                            <span class="uk-card-title">Default</span>
-                                            <p>Lorem ipsum sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                        
-                                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
-                            </div>
-                        </div>
-            </div>
-        </section> -->
-        <!-- TIMELINE -->
-        <section id="timeline" class="uk-section">
-            <div class="uk-container">
-                <h1 class="section-header uk-text-center">Notre actualité</h1>
-                <div uk-slider="center: true; finite: true">
-                    <div class="uk-position-relative uk-visible-toggle">
-                        <ul class="uk-slider-items uk-child-width-1-3@m uk-grid" uk-height-match=".same-height">
-                            <li>
-                                <div class="uk-card transparent-background same-height">
-                                    <div class="uk-padding-small">
-                                        <div class="uk-grid-small uk-flex-middle" uk-grid>
-                                            <div class="uk-width-auto">
-                                                <img class="uk-border-rounded" width="50" height="50" src="img/logo/Logo-departement-Var.png">
-                                            </div>
-                                            <div class="uk-width-expand">
-                                                <span class="uk-margin-remove-bottom">AGREMENT QUALITE</span>
-                                                <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">15 septembre 2009</time></p>
-                                            </div>
-                                        </div>
-                                        <p>N° N/150909/F/083/Q/0342 <br> Délivré par le Conseil Départemental du Var.</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="uk-card transparent-background same-height">
-                                    <div class="uk-padding-small">
-                                        <div class="uk-grid-small uk-flex-middle" uk-grid>
-                                            <div class="uk-width-auto">
-                                                <img class="uk-border-rounded" width="50" height="50" src="img/logo/logo-carsat.png">
-                                            </div>
-                                            <div class="uk-width-expand">
-                                                <span class="uk-margin-remove-bottom">CONVENTION CARSAT SUD-EST</span>
-                                                <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">1er mars 2010</time></p>
-                                            </div>
-                                        </div>
-                                        <p>
-                                            CONVENTION CARSAT SUD-EST
-                                            N° 831300.
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="uk-card transparent-background same-height">
-                                    <div class="uk-padding-small">
-                                        <div class="uk-grid-small uk-flex-middle" uk-grid>
-                                            <div class="uk-width-auto">
-                                                <img class="uk-border-rounded" width="50" height="50" src="img/car.jpg">
-                                            </div>
-                                            <div class="uk-width-expand">
-                                                <span class="uk-margin-remove-bottom">FLOTTE AUTOMOBILE</span>
-                                                <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">2013</time></p>
-                                            </div>
-                                        </div>
-                                        <p>
-                                            Acquisition de la flotte automobile.
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="uk-card transparent-background same-height">
-                                    <div class="uk-padding-small">
-                                        <div class="uk-grid-small uk-flex-middle" uk-grid>
-                                            <div class="uk-width-auto">
-                                                <img class="uk-border-rounded" width="50" height="50" src="img/logo/logo-qualicert.png">
-                                            </div>
-                                            <div class="uk-width-expand">
-                                                <span class="uk-margin-remove-bottom">CERTIFICATION SGS QUALICERT</span>
-                                                <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">24 mars 2014</time></p>
-                                            </div>
-                                        </div>
-                                        <p>
-                                            Renouvellement de l'agrément. <br> N° SAP511115081.
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="uk-card transparent-background same-height">
-                                    <div class="uk-padding-small">
-                                        <div class="uk-grid-small uk-flex-middle" uk-grid>
-                                            <div class="uk-width-auto">
-                                                <img class="uk-border-rounded" width="50" height="50" src="img/logo/Logo-departement-Var.png">
-                                            </div>
-                                            <div class="uk-width-expand">
-                                                <span class="uk-margin-remove-bottom">REGIME D'AUTORISATION</span>
-                                                <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">1er janvier 2016</time></p>
-                                            </div>
-                                        </div>
-                                        <p>
-                                            AID 83 est soumise à autorisation conformément à la loi ASV du 26 décembre 2015.
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="uk-card transparent-background same-height">
-                                    <div class="uk-padding-small">
-                                        <div class="uk-grid-small uk-flex-middle" uk-grid>
-                                            <div class="uk-width-auto">
-                                                <img class="uk-border-rounded" width="50" height="50" src="img/logo/logo-fedesap.png">
-                                            </div>
-                                            <div class="uk-width-expand">
-                                                <span class="uk-margin-remove-bottom">ADHESION FEDESAP</span>
-                                                <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">1er janvier 2018</time></p>
-                                            </div>
-                                        </div>
-                                        <p>
-                                            Fédération Française des Services à la Personne et de Proximité.
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="uk-card transparent-background same-height">
-                                    <div class="uk-padding-small">
-                                        <div class="uk-grid-small uk-flex-middle" uk-grid>
-                                            <div class="uk-width-auto">
-                                                <img class="uk-border-rounded" width="50" height="50" src="img/logo/logo-ppas.png">
-                                            </div>
-                                            <div class="uk-width-expand">
-                                                <span class="uk-margin-remove-bottom">Conventionnée OSCAR n° 831 38 300</span>
-                                                <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Janvier 2023</time></p>
-                                            </div>
-                                        </div>
-                                        <p>
-                                            OSCAR est le nouveau plan d’aides pour prévenir la perte d’autonomie et favoriser le maintien à domicile des retraités.
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
-                        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                    </div>
-                    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+          </div>
+        </div>
+        <div class="uk-width-1-3@m">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2911.8406929287253!2d5.901016814774333!3d43.128872694195714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c91b320b5ffbff%3A0xb64253b8ab70a493!2sAID+83!5e0!3m2!1sfr!2sfr!4v1544607734494"
+            width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //////////////////////////////  FAQ  ////////////////////////////// -->
+  <section id="faq" class="uk-section transparent-background">
+    <div class="uk-container">
+      <h1 class="section-header uk-text-center">F.A.Q</h1>
+      <div class="uk-grid-small uk-child-width-expand@m uk-text-left uk-grid-match" uk-grid>
+        <div class="uk-width-2-3@m">
+          <div class="">
+            <ul class="uk-margin-remove-bottom" uk-accordion>
+              <li class="uk-open">
+                <a class="uk-accordion-title" href="#">Je veux faire appel à vos services, comment cela se passe-t-il
+                  ?</a>
+                <div class="uk-accordion-content">
+                  <p>
+                    Nous convenons d'un rendez-vous,non facturé, avec notre coordinatrice à votre domicile.<br>
+                    Elle évalue vos besoins et défini avec vous les jours et horaires d'interventions que vous souhaitez
+                    y compris la date de début des interventions.
+                  </p>
                 </div>
-            </div>
-        </section>
-        <!-- SLIDER LOGO FOOTER-->
-        <!-- <section id="partners" class="uk-section">
+              </li>
+              <li>
+                <a class="uk-accordion-title" href="#">Où puis-je me procurer les dossiers de demande d'aide
+                  sociale?</a>
+                <div class="uk-accordion-content">
+                  <p>
+                    Nous mettons à votre disposition, dans nos bureaux, différents dossiers d'aide sociale.<br>
+                    Nous pouvons, si vous le souhaitez, vous aider à le renseigner et le transmettre pour vous.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <a class="uk-accordion-title" href="#">En tant que bénéficiaire, que se passe-t-il lorsque je
+                  m'absente?</a>
+                <div class="uk-accordion-content">
+                  <p>
+                    Les prestations sont suspendues. Si vous êtes bénéficiaire d'une aide du Conseil Départemental (APA
+                    ou PCH), nous les informons de votre date de départ et de retour.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <a class="uk-accordion-title" href="#">Je n'ai pas de véhicule, je souhaite utiliser l'un des votre, que
+                  dois-je faire?</a>
+                <div class="uk-accordion-content">
+                  <p>
+                    Vous devez nous contacter au minimum 48h à l'avance afin de réserver le véhicule qui vous convient :
+                    véhicule aménagé ou non.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <a class="uk-accordion-title" href="#">Comment recrutez-vous vos intervenants?</a>
+                <div class="uk-accordion-content">
+                  <p>
+                    Après avoir rempli un questionnaire de candidature, les intervenants ont un entretien avec la
+                    coordinatrice qui évalue notamment sa personnalité pour qu'elle soit adaptée à celle des
+                    bénéficiaires. Lors de la constitution de leur dossier administratif, leur casier judiciaire est
+                    demandé.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <a class="uk-accordion-title" href="#">En cas d'absence de mon intervenant, comment sont assurées mes
+                  prestations?</a>
+                <div class="uk-accordion-content">
+                  <p>
+                    Les prestations sont maintenues aux jours et horaires d'interventions qui ont été définis dans le
+                    contrat. Elles sont donc assurées mais peuvent-être décalées.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="uk-width-1-3@m">
+          <img src="img/people.png">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- TESTIMONIALS
+  <section id="testimonial" class="uk-section">
+    <div class="uk-container">
+      <div class="">
+        <div class="uk-position-relative uk-visible-toggle uk-text-center" uk-slider="center: true; autoplay: true; autoplay-interval: 3000">
+          <ul class="uk-slider-items">
+              <li class="uk-width-1-1 uk-padding-large">
+                  <div class="uk-card uk-card-body uk-width-1-1">
+                      <div class="">
+                          <img class="uk-border-rounded" src="img/avatar.jpg" width="130" height="130" alt="Border rounded">
+                      </div>
+                      <span class="">Default</span>
+                      <p>Lorem ipsum sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+              </li>
+              <li class="uk-width-1-1 uk-padding-large">
+                  <div class="uk-card uk-card-body uk-width-1-1">
+                      <div class="">
+                          <img class="uk-border-rounded" src="img/avatar.jpg" width="130" height="130" alt="Border rounded">
+                      </div>
+                      <span class="uk-card-title">Default</span>
+                      <p>Lorem ipsum sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+              </li>
+              <li class="uk-width-1-1 uk-padding-large">
+                  <div class="uk-card uk-card-body uk-width-1-1">
+                      <div class="">
+                          <img class="uk-border-rounded" src="img/avatar.jpg" width="130" height="130" alt="Border rounded">
+                      </div>
+                      <span class="uk-card-title">Default</span>
+                      <p>Lorem ipsum sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ipsum sit amet, consectetur adipiscing elit</p>
+                  </div>
+              </li>
+              <li class="uk-width-1-1 uk-padding-large">
+                  <div class="uk-card uk-card-body uk-width-1-1">
+                      <div class="">
+                          <img class="uk-border-rounded" src="img/avatar.jpg" width="130" height="130" alt="Border rounded">
+                      </div>
+                      <span class="uk-card-title">Default</span>
+                      <p>Lorem ipsum sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+              </li>
+          </ul>
+          <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+          <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- TIMELINE -->
+  <section id="timeline" class="uk-section">
+    <div class="uk-container">
+      <h1 class="section-header uk-text-center">Notre actualité</h1>
+      <div uk-slider="center: true; finite: true">
+        <div class="uk-position-relative uk-visible-toggle">
+          <ul class="uk-slider-items uk-child-width-1-3@m uk-grid" uk-height-match=".same-height">
+            <li>
+              <div class="uk-card transparent-background same-height">
+                <div class="uk-padding-small">
+                  <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                      <img class="uk-border-rounded" width="50" height="50" src="img/logo/Logo-departement-Var.png">
+                    </div>
+                    <div class="uk-width-expand">
+                      <span class="uk-margin-remove-bottom">AGREMENT QUALITE</span>
+                      <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">15 septembre
+                          2009</time></p>
+                    </div>
+                  </div>
+                  <p>N° N/150909/F/083/Q/0342 <br> Délivré par le Conseil Départemental du Var.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="uk-card transparent-background same-height">
+                <div class="uk-padding-small">
+                  <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                      <img class="uk-border-rounded" width="50" height="50" src="img/logo/logo-carsat.png">
+                    </div>
+                    <div class="uk-width-expand">
+                      <span class="uk-margin-remove-bottom">CONVENTION CARSAT SUD-EST</span>
+                      <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">1er mars
+                          2010</time></p>
+                    </div>
+                  </div>
+                  <p>
+                    CONVENTION CARSAT SUD-EST
+                    N° 831300.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="uk-card transparent-background same-height">
+                <div class="uk-padding-small">
+                  <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                      <img class="uk-border-rounded" width="50" height="50" src="img/car.jpg">
+                    </div>
+                    <div class="uk-width-expand">
+                      <span class="uk-margin-remove-bottom">FLOTTE AUTOMOBILE</span>
+                      <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">2013</time></p>
+                    </div>
+                  </div>
+                  <p>
+                    Acquisition de la flotte automobile.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="uk-card transparent-background same-height">
+                <div class="uk-padding-small">
+                  <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                      <img class="uk-border-rounded" width="50" height="50" src="img/logo/logo-qualicert.png">
+                    </div>
+                    <div class="uk-width-expand">
+                      <span class="uk-margin-remove-bottom">CERTIFICATION SGS QUALICERT</span>
+                      <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">24 mars 2014</time>
+                      </p>
+                    </div>
+                  </div>
+                  <p>
+                    Renouvellement de l'agrément. <br> N° SAP511115081.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="uk-card transparent-background same-height">
+                <div class="uk-padding-small">
+                  <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                      <img class="uk-border-rounded" width="50" height="50" src="img/logo/Logo-departement-Var.png">
+                    </div>
+                    <div class="uk-width-expand">
+                      <span class="uk-margin-remove-bottom">REGIME D'AUTORISATION</span>
+                      <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">1er janvier
+                          2016</time></p>
+                    </div>
+                  </div>
+                  <p>
+                    AID 83 est soumise à autorisation conformément à la loi ASV du 26 décembre 2015.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="uk-card transparent-background same-height">
+                <div class="uk-padding-small">
+                  <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                      <img class="uk-border-rounded" width="50" height="50" src="img/logo/logo-fedesap.png">
+                    </div>
+                    <div class="uk-width-expand">
+                      <span class="uk-margin-remove-bottom">ADHESION FEDESAP</span>
+                      <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">1er janvier
+                          2018</time></p>
+                    </div>
+                  </div>
+                  <p>
+                    Fédération Française des Services à la Personne et de Proximité.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="uk-card transparent-background same-height">
+                <div class="uk-padding-small">
+                  <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                      <img class="uk-border-rounded" width="50" height="50" src="img/logo/logo-ppas.png">
+                    </div>
+                    <div class="uk-width-expand">
+                      <span class="uk-margin-remove-bottom">Conventionnée OSCAR n° 831 38 300</span>
+                      <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Janvier 2023</time>
+                      </p>
+                    </div>
+                  </div>
+                  <p>
+                    OSCAR est le nouveau plan d’aides pour prévenir la perte d’autonomie et favoriser le maintien à
+                    domicile des retraités.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+          <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous
+            uk-slider-item="previous"></a>
+        </div>
+        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+      </div>
+    </div>
+  </section>
+  <!-- SLIDER LOGO FOOTER-->
+  <!-- <section id="partners" class="uk-section">
             <div class="uk-container">
                 <h1 class="section-header uk-text-center">Nos partenaires</h1>
                 <div class="uk-grid-collapse uk-child-width-expand uk-text-center" uk-grid uk-height-match=".same-height">
@@ -882,89 +928,89 @@
                 </div>
             </div>
         </section> -->
-        
-        <!-- SLIDER LOGO FOOTER -->
-        <section class="uk-height-1-1">
-            <div class="uk-container">
-                <div class="uk-width-1-1" uk-slider="autoplay: true; autoplay-interval: 1800;">
-                    <div class="uk-position-relative uk-visible-toggle">
-                        <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-6@m">
-                            <li>
-                                <img src="img/logo/logo-cmcas.png" alt="" width="70" height="70">
-                            </li>
-                            <li>
-                                <img src="img/logo/logo-apf.png" alt="" width="70" height="70">
-                            </li>
-                            <li>
-                                <img src="img/logo/logo-atmp.png" alt="" width="70" height="70">
-                            </li>
-                            <li>
-                                <img src="img/logo/logo-carsat.png" alt="" width="70" height="70">
-                            </li>
-                            <li>
-                                <img src="img/logo/logo-ccas.png" alt="" width="70" height="70">
-                            </li>
-                            <li>
-                                <img src="img/logo/logo-cnmss.png" alt="" width="70" height="70">
-                            </li>
-                            <li>
-                                <img src="img/logo/logo-cnracl.png" alt="" width="70" height="70">
-                            </li>
-                            <li>
-                                <img src="img/logo/logo-udaf.png" alt="" width="70" height="70">
-                            </li>
-                            <li>
-                                <img src="img/logo/Logo-departement-Var.png" alt="" width="70" height="70">
-                            </li>
-                            <li>
-                                <img src="img/logo/logo-cpam.png" alt="" width="70" height="70">
-                            </li>
-                            <li>
-                                <img src="img/logo/logo-mutuelle-assistance.png" alt="" width="70" height="70">
-                            </li>
-                            <li>
-                                <img src="img/logo/logo-rma.png" alt="" width="70" height="70">
-                            </li>
-                            <li>
-                                <img src="img/logo/logo-udaf.png" alt="" width="70" height="70">
-                            </li>
-                            <li>
-                                <img src="img/logo/logo-la-garde.png" alt="" width="70" height="70">
-                            </li>
-                        </ul>
-                    </div>
-                    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
-                </div>
-            </div>
-        </section>
-       
-        <!-- FOOTER-->
-        <section id="footer" class="uk-section uk-padding-remove gradient1">
-            <div class="uk-container">
-                <div class="uk-grid-collapse uk-child-width-expand@s uk-text-center" uk-grid>
-                    <div>
-                        <div class="uk-padding-small">
-                            <a class="footer-link" href="mentions.html">Mentions légales</a>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-padding-small" id="yearContainer">
-                          <script>
-                            var aujd = new Date();
-                            var année = aujd.getFullYear();
-                            var yearContainerElement = document.getElementById('yearContainer')
-                            console.log(yearContainerElement)
-                            yearContainerElement.innerHTML = `© ${année} AID83. Tous droits réservés`
-                          </script>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-padding-small">
-                            Développé par <a class="footer-link" href="https://www.lioens.dev" target="_blank">Lionel Ensfelder 🚀</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </body>
+  <!-- SLIDER LOGO FOOTER -->
+  <section class="uk-height-1-1">
+    <div class="uk-container">
+      <div class="uk-width-1-1" uk-slider="autoplay: true; autoplay-interval: 1800;">
+        <div class="uk-position-relative uk-visible-toggle">
+          <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-6@m">
+            <li>
+              <img src="img/logo/logo-cmcas.png" alt="" width="70" height="70">
+            </li>
+            <li>
+              <img src="img/logo/logo-apf.png" alt="" width="70" height="70">
+            </li>
+            <li>
+              <img src="img/logo/logo-atmp.png" alt="" width="70" height="70">
+            </li>
+            <li>
+              <img src="img/logo/logo-carsat.png" alt="" width="70" height="70">
+            </li>
+            <li>
+              <img src="img/logo/logo-ccas.png" alt="" width="70" height="70">
+            </li>
+            <li>
+              <img src="img/logo/logo-cnmss.png" alt="" width="70" height="70">
+            </li>
+            <li>
+              <img src="img/logo/logo-cnracl.png" alt="" width="70" height="70">
+            </li>
+            <li>
+              <img src="img/logo/logo-udaf.png" alt="" width="70" height="70">
+            </li>
+            <li>
+              <img src="img/logo/Logo-departement-Var.png" alt="" width="70" height="70">
+            </li>
+            <li>
+              <img src="img/logo/logo-cpam.png" alt="" width="70" height="70">
+            </li>
+            <li>
+              <img src="img/logo/logo-mutuelle-assistance.png" alt="" width="70" height="70">
+            </li>
+            <li>
+              <img src="img/logo/logo-rma.png" alt="" width="70" height="70">
+            </li>
+            <li>
+              <img src="img/logo/logo-udaf.png" alt="" width="70" height="70">
+            </li>
+            <li>
+              <img src="img/logo/logo-la-garde.png" alt="" width="70" height="70">
+            </li>
+          </ul>
+        </div>
+        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER-->
+  <section id="footer" class="uk-section uk-padding-remove gradient1">
+    <div class="uk-container">
+      <div class="uk-grid-collapse uk-child-width-expand@s uk-text-center" uk-grid>
+        <div>
+          <div class="uk-padding-small">
+            <a class="footer-link" href="mentions.html">Mentions légales</a>
+          </div>
+        </div>
+        <div>
+          <div class="uk-padding-small" id="yearContainer">
+            <script>
+              var aujd = new Date();
+              var année = aujd.getFullYear();
+              var yearContainerElement = document.getElementById('yearContainer')
+              console.log(yearContainerElement)
+              yearContainerElement.innerHTML = `© ${année} AID83. Tous droits réservés`
+            </script>
+          </div>
+        </div>
+        <div>
+          <div class="uk-padding-small">
+            Développé par <a class="footer-link" href="https://www.lioens.dev" target="_blank">Lionel Ensfelder 🚀</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
 </html>
