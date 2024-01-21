@@ -231,10 +231,9 @@
         <div>
           <div class="uk-card uk-card-body">
             <span class="icofont-tools-bag icofont-4x light-grey-font"></span><br>
-            <span class="card-header">Petit bricolage</span>
+            <span class="card-header">Petit bricolage et petit jardinage</span>
             <p>
-              Prestation de bricolage élémentaire et occasionnel comme fixer une étagère, monter des petits meubles,
-              remplacer un joint...
+              Fixer des étagères, monter des petits meubles, peinture, tondre la palouse, remplacer un joint, etc...
             </p>
           </div>
         </div>
@@ -278,13 +277,18 @@
             </div>
             <p>
             <ul>
-              <li>27,10 € du lundi au samedi.</li>
-              <li>32.70 € les dimanches et jours fériés.</li>
-              <li>32.70 € pour les prestations au-delà de 20h.</li>
-              <li>45 € de l'heure + 5 € de frais de déplacement pour le petit jardinage et le petit bricolage.</li>
-              <li>0.75 € de frais de déplacement par intervention du lundi au samedi.</li>
-              <li>1.50 € de frais de déplacement par intervention les dimanche et jours fériés.</li>
-              <li>0.58 € par kilomètres parcourus (accompagnement à l'extérieur).</li>
+              <li>28,70 € du lundi au samedi.</li>
+              <li>34,65 € les dimanches et jours fériés.</li>
+              <li>34,65 € pour les prestations au-delà de 20h.</li>
+              <li>50 € de l'heure pour le petit jardinage et le petit bricolage.</li>
+            </ul>
+            <span class="card-header" style="margin-bottom: 0.5em; font-weight: 400;">Frais de déplacement</span>
+            <ul>
+              <!-- <li style="list-style-type: none;""><span class="card-header" style="margin-bottom: 0.5em;">Frais de déplacement</span></li> -->
+              <li>1 € de frais de déplacement par prestation du lundi au samedi.</li>
+              <li>2 € de frais de déplacement par prestation les dimanche et jours fériés.</li>
+              <li>0,60 € par kilomètres pour les accompagnements.</li>
+              <li>5 € de déplacement pour le petit bricolage / petit jardinage</li>
             </ul>
             </p>
           </div>
@@ -295,15 +299,21 @@
               <span class="icofont-credit-card icofont-4x uk-margin-small-right"></span>
               <span class="card-header">Moyens de paiement</span>
             </div>
-            <p>
+            <br>
             <ul>
-              <li>Espèces*</li>
+              <li>Espèces <b>*</b></li>
               <li>Virement bancaire</li>
               <li>Chèque</li>
-              <li>CESU</li>
+              <li>Chèque CESU <b>**</b></li>
               <li>Prélèvements automatique</li>
             </ul>
-            *N’ouvre pas droit à avantage fiscal – article D. 7233-3 du code du travail.
+          <p>
+            * N’ouvre pas droit à avantage fiscal – article D. 7233-3 du code du travail.
+          </p>
+          <p>
+            ** Frais CESU selon organismes payeurs à disposition au bureau.
+          </p>
+          </br>
             </p>
           </div>
         </div>
@@ -417,7 +427,7 @@
           <div class="uk-card uk-card-body uk-text-center">
             <img class="uk-border-rounded" src="img/default-profile.png" alt="Border rounded"><br>
             <span class="card-header">Mélina Ouakki</span><br>
-            <span class="">Responsable de secteur</span><br>
+            <span class="">Assistante des Ressources Humaines</span><br>
             <a class="uk-margin-small-top" href="mailto:rh@aid83.org">rh@aid83.org</a>
           </div>
         </div>
@@ -425,7 +435,7 @@
           <div class="uk-card uk-card-body uk-text-center">
             <img class="uk-border-rounded" src="img/default-profile.png" alt="Border rounded"><br>
             <span class="card-header">Laura BOULOUS</span><br>
-            <span class="">Secrétaire</span><br>
+            <span class="">Responsable secteur</span><br>
             <a class="uk-margin-small-top" href="mailto:rh@aid83.org">contact@aid83.org</a>
           </div>
         </div>
@@ -998,7 +1008,6 @@
               var aujd = new Date();
               var année = aujd.getFullYear();
               var yearContainerElement = document.getElementById('yearContainer')
-              console.log(yearContainerElement)
               yearContainerElement.innerHTML = `© ${année} AID83. Tous droits réservés`
             </script>
           </div>
